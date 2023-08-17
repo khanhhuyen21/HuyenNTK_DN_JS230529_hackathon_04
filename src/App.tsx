@@ -3,7 +3,7 @@ import "./index.css";
 import { Task } from "./components/Task/TaskComp";
 import { Header } from "./components/Header/HeaderComp";
 import { Input } from "./components/Input/InputComp";
-import "./styles/global.css";
+
 interface ITask {
   id: string;
   title: string;

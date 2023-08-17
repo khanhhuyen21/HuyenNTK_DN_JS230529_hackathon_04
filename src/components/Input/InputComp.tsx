@@ -38,7 +38,7 @@ export function Input({ onNewTask }: TaskProps) {
           onInvalid={handleNewTaskInvalid}
         />
         <button onClick={handleNewTask} type="submit" disabled={isNewTask}>
-          Add
+          Add Item
           <PlusCircle size={20} />
         </button>
       </div>

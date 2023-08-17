@@ -1,3 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(255, 66, 97);
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -12,7 +32,7 @@ code {
     monospace;
 }
 .header {
-  background: var(--gray-700);
+  background: rgb(255, 66, 97);
   display: block;
   justify-content: center;
   padding: 4.5rem 0 5rem 0;
@@ -38,12 +58,12 @@ p {
 }
 
 .containerInput input {
-  background: var(--gray-500);
-  color: var(--gray-100);
+  background: rgb(236, 163, 175);
+  color: white;
 
-  border: 1px solid var(--gray-700);
+  border: 1px solid pink;
 
-  outline: 2px solid var(--purple-500);
+  outline: 2px solid pink;
 
   border-radius: 8px;
   padding: 1rem;
@@ -57,8 +77,8 @@ p {
 }
 
 .containerInput button {
-  background: var(--blue-700);
-  color: var(--gray-100);
+  background: pink;
+  color: white;
 
   font-weight: bold;
 
@@ -92,7 +112,7 @@ p {
 
 .createdTasks {
   font-weight: bold;
-  color: var(--blue-500);
+  color: pink;
 }
 
 .createdTasks span {
@@ -101,13 +121,13 @@ p {
   padding: 0.125rem 0.5rem;
   border-radius: 14px;
   font-size: 0.75rem;
-  background: var(--gray-400);
-  color: var(--gray-200);
+  background: pink;
+  color: white;
 }
 
 .completedTasks {
   font-weight: bold;
-  color: var(--purple-500);
+  color: pink;
 }
 
 .completedTasks span {
@@ -116,8 +136,8 @@ p {
   padding: 2px 8px;
   border-radius: 14px;
   font-size: 0.75rem;
-  background: var(--gray-400);
-  color: var(--gray-200);
+  background: pink;
+  color: white;
 }
 
 .taskEmpty {
@@ -128,8 +148,8 @@ p {
 
   gap: 2rem;
   border: 8px;
-  border-top: 1px solid var(--gray-400);
-  color: var(--gray-300);
+  border-top: 1px solid pink;
+  color: white;
 
   padding: 4rem 1.5rem;
   margin-top: 1.5rem;
@@ -149,7 +169,7 @@ p {
 .taskContent {
   display: flex;
   align-items: flex-start;
-  background: var(--gray-400);
+  background: pink;
   gap: 0.75rem;
   border: 1px solid #333;
   box-shadow: 0 2px 8px #00000f;
@@ -165,14 +185,14 @@ p {
   border-radius: 999px;
 
   background: transparent;
-  border: 2px solid var(--blue-500);
+  border: 2px solid rgb(30, 28, 28);
 
   cursor: pointer;
 }
 
 .checkBoxInput:checked {
-  accent-color: var(--purple-500);
-  background: var(--purple-500);
+  accent-color: rgb(255, 66, 97);
+  background: rgb(255, 66, 97);
 
   border: 2px solid transparent;
   position: relative;
@@ -185,13 +205,13 @@ p {
 .titleTaskCompleted {
   flex: 1;
   text-decoration: line-through;
-  color: var(--gray-300);
+  color: white;
 }
 
 .buttoTrash {
-  color: var(--gray-300);
+  color: white;
 }
 
 .buttoTrash:hover {
-  color: var(--red-500);
+  color: white;
 }
