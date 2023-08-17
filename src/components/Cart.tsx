@@ -44,7 +44,7 @@ function Cart({ cartProducts, closeCart, changeQuantity, total }: CartProps) {
         ))}
       </ul>
       <div className="checkOut">
-        <div className="total">{total.toLocaleString()}</div>
+        <div className="total">Total: {total.toLocaleString()}</div>
         <div className="closeShopping" onClick={closeCart}>
           Close
         </div>

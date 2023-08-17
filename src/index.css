@@ -57,7 +57,8 @@ header .shopping span {
   margin: 10px;
 }
 .list .item button {
-  background-color: #9b4162;
+  border: none;
+  background-color: #98516b;
   color: #fff;
   width: 100%;
   padding: 10px;
@@ -67,7 +68,7 @@ header .shopping span {
   top: 0;
   left: 100%;
   width: 500px;
-  background-color: #740a1a;
+  background-color: #650a18;
   height: 100vh;
   transition: 0.5s;
 }
